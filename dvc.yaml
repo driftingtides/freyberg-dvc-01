@@ -1,0 +1,11 @@
+stages:
+  get_executables:
+    cmd: python src/get_executables.py
+    deps:
+      - get_executables.py
+    outs:
+      - executables.json
+  # build:
+  # evaluate:
+  # historymatch:
+
