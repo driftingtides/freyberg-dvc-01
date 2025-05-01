@@ -1,0 +1,6 @@
+outs:
+- md5: b580327f417c60c11138302ca35fce29.dir
+  size: 76736873
+  nfiles: 13
+  hash: md5
+  path: freyberg_multilayer_transient
