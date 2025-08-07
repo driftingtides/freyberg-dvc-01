@@ -5,3 +5,10 @@ stages:
     - scripts/workflow_exe.py
     outs:
     - bin/exe.txt
+  model_setup:
+    cmd: python scripts/workflow_setup.py
+    deps:
+    - scripts/workflow_setup.py
+    params:
+    - model.org_ws
+    - model.sim_ws

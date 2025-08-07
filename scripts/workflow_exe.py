@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 def get_executables():
-    bindir = os.path.join("..", "bin")
+    bindir = os.path.join("bin")
     if os.path.exists(bindir):
         print("bin dir exists, skipping download")
         return
