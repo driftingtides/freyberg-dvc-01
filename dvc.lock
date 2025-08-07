@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  get_exe:
+    cmd: python scripts/workflow_exe.py
+    deps:
+    - path: scripts/workflow_exe.py
+      hash: md5
+      md5: f2b3d0f8028fb07e68fde1d6fd1fdb5f
+      size: 889
+    outs:
+    - path: bin/exe.txt
+      hash: md5
+      md5: 301438f13600df689464b0f740ae31a5
+      size: 123
