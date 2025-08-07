@@ -1,0 +1,7 @@
+stages:
+  get_exe:
+    cmd: python scripts/workflow_exe.py
+    deps:
+    - scripts/workflow_exe.py
+    outs:
+    - bin/exe.txt
