@@ -1,0 +1,6 @@
+outs:
+- md5: 6bb301d62a8765869e036708aae9bf80.dir
+  size: 630219
+  nfiles: 123
+  hash: md5
+  path: freyberg
