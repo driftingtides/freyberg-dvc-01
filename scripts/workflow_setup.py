@@ -24,4 +24,4 @@ def model_setup(org_ws, sim_ws):
 
 if __name__ == "__main__":
     # Load YAML configuration
-    model_setup(params["model"]["org_ws"], params["model"]["sim_ws"])
+    model_setup(params["sim"]["org_ws"], params["sim"]["sim_ws"])

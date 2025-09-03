@@ -18,25 +18,19 @@ stages:
     deps:
     - path: scripts/workflow_setup.py
       hash: md5
-      md5: 0f99a224a5b96ac33d3dc17b85327945
-      size: 633
+      md5: 794a89d32422b290f1c82ace948f6531
+      size: 629
     params:
       params.yaml:
-        model.org_ws: data/models/freyberg
-        model.sim_ws: data/models/new_simulation
-    outs:
-    - path: data/models/new_simulation
-      hash: md5
-      md5: 950eee9a728b4d91315851d86982c60d.dir
-      size: 631081
-      nfiles: 123
+        sim.org_ws: data/models/freyberg
+        sim.sim_ws: data/models/new_simulation
   model_run:
     cmd: python scripts/workflow_run.py
     deps:
     - path: scripts/workflow_run.py
       hash: md5
-      md5: 9ff0a8a6ea3a49eca1e5e5ce2f1e2e2d
-      size: 383
+      md5: 96ffd4176fa9768461e497faaeb47a34
+      size: 870
     params:
       params.yaml:
-        model.sim_ws: data/models/new_simulation
+        sim.sim_ws: data/models/new_simulation
